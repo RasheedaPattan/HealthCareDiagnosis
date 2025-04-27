@@ -146,3 +146,174 @@ Here's a breakdown of key aspects of SLE:
 
 Managing SLE requires a multidisciplinary approach involving rheumatologists, nephrologists, cardiologists, dermatologists, and other specialists as needed.  Regular monitoring is crucial to detect and manage complications.
 2025-04-27 21:12:08,984 - INFO - PubMed Screener module loaded successfully.
+2025-04-27 21:20:02,796 - INFO - Initializing ChatPromptTemplate with system and human prompts.
+2025-04-27 21:20:02,798 - INFO - ChatPromptTemplate initialized successfully.
+2025-04-27 21:20:02,798 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 50, Completion Tokens: 150, Total Tokens: 200
+2025-04-27 21:20:02,809 - INFO - Response generated: Sample response to the question.
+2025-04-27 21:20:02,843 - INFO - Loading environment variables from .env file.
+2025-04-27 21:20:02,845 - INFO - Successfully loaded GEMINI_API_KEY from environment.
+2025-04-27 21:20:02,846 - INFO - Initializing ChatGoogleGenerativeAI model.
+2025-04-27 21:20:02,854 - INFO - ChatGoogleGenerativeAI model initialized successfully.
+2025-04-27 21:20:03,016 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:20:03,020 - INFO - No summary available. Prompting user to upload a report.
+2025-04-27 21:20:03,024 - INFO - Chatbot Assistant module loaded successfully.
+2025-04-27 21:20:10,684 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:20:10,693 - INFO - User uploaded a file: Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:20:10,702 - INFO - Processing file: Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:20:10,716 - INFO - Starting to process and store the report from file: temp\Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:20:10,717 - INFO - Starting text extraction from file: temp\Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:20:10,717 - INFO - Starting to extract text from PDF: temp\Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:20:11,038 - INFO - Successfully extracted text from PDF: temp\Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:20:11,042 - INFO - Model: pdf-extraction, Prompt Tokens: 2538, Completion Tokens: 0, Total Tokens: 2538
+2025-04-27 21:20:11,047 - INFO - Successfully extracted text from file: temp\Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:20:11,048 - INFO - Model: text-extraction, Prompt Tokens: 2538, Completion Tokens: 0, Total Tokens: 2538
+2025-04-27 21:20:11,052 - INFO - Starting to store embeddings for source: uploaded_report
+2025-04-27 21:20:11,057 - INFO - Splitting the text into chunks.
+2025-04-27 21:20:11,064 - INFO - Text split into 22 chunks.
+2025-04-27 21:20:11,066 - INFO - Initializing embeddings.
+2025-04-27 21:20:11,101 - INFO - Model: models/embedding-001, Prompt Tokens: 3115, Completion Tokens: 0, Total Tokens: 3115
+2025-04-27 21:20:11,111 - INFO - Saving embeddings to ChromaDB at data/chroma_db/default.
+2025-04-27 21:20:20,782 - INFO - Successfully stored 22 chunks to ChromaDB.
+2025-04-27 21:20:20,783 - INFO - Successfully stored embeddings for the file: temp\Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:20:20,786 - INFO - Model: embedding-storage, Prompt Tokens: 2538, Completion Tokens: 0, Total Tokens: 2538
+2025-04-27 21:20:20,794 - INFO - Starting to extract important details from the provided report.
+2025-04-27 21:20:20,797 - INFO - Processing report text of length 16966 characters.
+2025-04-27 21:20:27,099 - INFO - Token usage - Prompt Tokens: 4635, Completion Tokens: 477, Total Tokens: 5112
+2025-04-27 21:20:27,099 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 4635, Completion Tokens: 477, Total Tokens: 5112
+2025-04-27 21:20:27,105 - INFO - File processed and summary created for: Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:20:27,112 - INFO - Summary downloaded for file: Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:20:27,120 - INFO - Chatbot Assistant module loaded successfully.
+2025-04-27 21:20:28,159 - INFO - Loading Differential Diagnosis module...
+2025-04-27 21:20:28,161 - INFO - New uploaded report detected. Clearing old diagnosis...
+2025-04-27 21:20:28,162 - INFO - Generating new diagnostic summary...
+2025-04-27 21:20:36,187 - INFO - Differential Diagnosis module loaded successfully.
+2025-04-27 21:20:37,804 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:20:37,825 - INFO - Summary downloaded for file: Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:20:37,835 - INFO - Chatbot Assistant module loaded successfully.
+2025-04-27 21:20:47,659 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:20:47,668 - INFO - User uploaded a file: WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:20:47,672 - INFO - Processing file: WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:20:47,686 - INFO - Starting to process and store the report from file: temp\WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:20:47,687 - INFO - Starting text extraction from file: temp\WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:20:47,696 - INFO - Starting to extract text from image: temp\WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:20:50,726 - INFO - Successfully extracted text from image: temp\WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:20:50,728 - INFO - Model: image-extraction, Prompt Tokens: 146, Completion Tokens: 0, Total Tokens: 146
+2025-04-27 21:20:50,731 - INFO - Successfully extracted text from file: temp\WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:20:50,731 - INFO - Model: text-extraction, Prompt Tokens: 146, Completion Tokens: 0, Total Tokens: 146
+2025-04-27 21:20:50,735 - INFO - Starting to store embeddings for source: uploaded_report
+2025-04-27 21:20:50,737 - INFO - Splitting the text into chunks.
+2025-04-27 21:20:50,738 - INFO - Text split into 1 chunks.
+2025-04-27 21:20:50,738 - INFO - Initializing embeddings.
+2025-04-27 21:20:50,753 - INFO - Model: models/embedding-001, Prompt Tokens: 146, Completion Tokens: 0, Total Tokens: 146
+2025-04-27 21:20:50,760 - INFO - Saving embeddings to ChromaDB at data/chroma_db/default.
+2025-04-27 21:20:53,678 - INFO - Successfully stored 1 chunks to ChromaDB.
+2025-04-27 21:20:53,679 - INFO - Successfully stored embeddings for the file: temp\WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:20:53,679 - INFO - Model: embedding-storage, Prompt Tokens: 146, Completion Tokens: 0, Total Tokens: 146
+2025-04-27 21:20:53,682 - INFO - Starting to extract important details from the provided report.
+2025-04-27 21:20:53,683 - INFO - Processing report text of length 925 characters.
+2025-04-27 21:20:55,601 - INFO - Token usage - Prompt Tokens: 306, Completion Tokens: 161, Total Tokens: 467
+2025-04-27 21:20:55,601 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 306, Completion Tokens: 161, Total Tokens: 467
+2025-04-27 21:20:55,616 - INFO - File processed and summary created for: WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:20:55,628 - INFO - Summary downloaded for file: WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:20:55,638 - INFO - Chatbot Assistant module loaded successfully.
+2025-04-27 21:21:05,641 - INFO - Loading Differential Diagnosis module...
+2025-04-27 21:21:05,654 - INFO - New uploaded report detected. Clearing old diagnosis...
+2025-04-27 21:21:05,663 - INFO - Generating new diagnostic summary...
+2025-04-27 21:21:11,027 - INFO - Differential Diagnosis module loaded successfully.
+2025-04-27 21:25:12,440 - INFO - Initializing ChatPromptTemplate with system and human prompts.
+2025-04-27 21:25:12,471 - INFO - ChatPromptTemplate initialized successfully.
+2025-04-27 21:25:12,472 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 50, Completion Tokens: 150, Total Tokens: 200
+2025-04-27 21:25:12,485 - INFO - Response generated: Sample response to the question.
+2025-04-27 21:25:12,552 - INFO - Loading environment variables from .env file.
+2025-04-27 21:25:12,555 - INFO - Successfully loaded GEMINI_API_KEY from environment.
+2025-04-27 21:25:12,556 - INFO - Initializing ChatGoogleGenerativeAI model.
+2025-04-27 21:25:12,577 - INFO - ChatGoogleGenerativeAI model initialized successfully.
+2025-04-27 21:25:12,828 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:25:12,841 - INFO - No summary available. Prompting user to upload a report.
+2025-04-27 21:25:12,845 - INFO - Chatbot Assistant module loaded successfully.
+2025-04-27 21:26:24,020 - INFO - Initializing ChatPromptTemplate with system and human prompts.
+2025-04-27 21:26:24,026 - INFO - ChatPromptTemplate initialized successfully.
+2025-04-27 21:26:24,026 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 50, Completion Tokens: 150, Total Tokens: 200
+2025-04-27 21:26:24,042 - INFO - Response generated: Sample response to the question.
+2025-04-27 21:26:24,092 - INFO - Loading environment variables from .env file.
+2025-04-27 21:26:24,094 - INFO - Successfully loaded GEMINI_API_KEY from environment.
+2025-04-27 21:26:24,095 - INFO - Initializing ChatGoogleGenerativeAI model.
+2025-04-27 21:26:24,114 - INFO - ChatGoogleGenerativeAI model initialized successfully.
+2025-04-27 21:26:24,458 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:26:24,476 - INFO - No summary available. Prompting user to upload a report.
+2025-04-27 21:26:24,483 - INFO - Chatbot Assistant module loaded successfully.
+2025-04-27 21:27:43,444 - INFO - Initializing ChatPromptTemplate with system and human prompts.
+2025-04-27 21:27:43,453 - INFO - ChatPromptTemplate initialized successfully.
+2025-04-27 21:27:43,453 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 50, Completion Tokens: 150, Total Tokens: 200
+2025-04-27 21:27:43,456 - INFO - Response generated: Sample response to the question.
+2025-04-27 21:27:43,590 - INFO - Loading environment variables from .env file.
+2025-04-27 21:27:43,623 - INFO - Successfully loaded GEMINI_API_KEY from environment.
+2025-04-27 21:27:43,624 - INFO - Initializing ChatGoogleGenerativeAI model.
+2025-04-27 21:27:44,433 - INFO - ChatGoogleGenerativeAI model initialized successfully.
+2025-04-27 21:27:45,323 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:27:45,332 - INFO - No summary available. Prompting user to upload a report.
+2025-04-27 21:27:45,339 - INFO - Chatbot Assistant module loaded successfully.
+2025-04-27 21:27:49,602 - INFO - Loading Differential Diagnosis module...
+2025-04-27 21:27:49,607 - WARNING - User attempted to access Differential Diagnosis without uploading a report.
+2025-04-27 21:27:49,608 - INFO - Differential Diagnosis module loaded successfully.
+2025-04-27 21:27:54,173 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:27:54,181 - INFO - No summary available. Prompting user to upload a report.
+2025-04-27 21:27:54,188 - INFO - Chatbot Assistant module loaded successfully.
+2025-04-27 21:28:01,234 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:28:01,240 - INFO - User uploaded a file: WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:28:01,256 - INFO - Processing file: WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:28:01,273 - INFO - Starting to process and store the report from file: temp\WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:28:01,279 - INFO - Starting text extraction from file: temp\WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:28:01,282 - INFO - Starting to extract text from image: temp\WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:28:04,525 - INFO - Successfully extracted text from image: temp\WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:28:04,526 - INFO - Model: image-extraction, Prompt Tokens: 146, Completion Tokens: 0, Total Tokens: 146
+2025-04-27 21:28:04,532 - INFO - Successfully extracted text from file: temp\WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:28:04,533 - INFO - Model: text-extraction, Prompt Tokens: 146, Completion Tokens: 0, Total Tokens: 146
+2025-04-27 21:28:04,536 - INFO - Starting to store embeddings for source: uploaded_report
+2025-04-27 21:28:04,537 - INFO - Splitting the text into chunks.
+2025-04-27 21:28:04,538 - INFO - Text split into 1 chunks.
+2025-04-27 21:28:04,539 - INFO - Initializing embeddings.
+2025-04-27 21:28:04,555 - INFO - Model: models/embedding-001, Prompt Tokens: 146, Completion Tokens: 0, Total Tokens: 146
+2025-04-27 21:28:04,556 - INFO - Saving embeddings to ChromaDB at data/chroma_db/default.
+2025-04-27 21:28:07,803 - INFO - Successfully stored 1 chunks to ChromaDB.
+2025-04-27 21:28:07,805 - INFO - Successfully stored embeddings for the file: temp\WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:28:07,806 - INFO - Model: embedding-storage, Prompt Tokens: 146, Completion Tokens: 0, Total Tokens: 146
+2025-04-27 21:28:07,811 - INFO - Starting to extract important details from the provided report.
+2025-04-27 21:28:07,812 - INFO - Processing report text of length 925 characters.
+2025-04-27 21:28:11,382 - INFO - Token usage - Prompt Tokens: 306, Completion Tokens: 186, Total Tokens: 492
+2025-04-27 21:28:11,382 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 306, Completion Tokens: 186, Total Tokens: 492
+2025-04-27 21:28:11,382 - INFO - File processed and summary created for: WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:28:11,394 - INFO - Summary downloaded for file: WhatsApp Image 2025-04-19 at 4.50.59 PM.jpeg
+2025-04-27 21:28:11,404 - INFO - Chatbot Assistant module loaded successfully.
+2025-04-27 21:28:13,419 - INFO - Loading Differential Diagnosis module...
+2025-04-27 21:28:13,419 - INFO - New uploaded report detected. Clearing old diagnosis...
+2025-04-27 21:28:13,422 - INFO - Generating new diagnostic summary...
+2025-04-27 21:28:17,917 - INFO - Differential Diagnosis module loaded successfully.
+2025-04-27 21:28:23,229 - INFO - Loading PubMed Screener module...
+2025-04-27 21:28:23,281 - INFO - Setting up the chain for the ChatAgent.
+2025-04-27 21:28:23,283 - INFO - Chain setup complete.
+2025-04-27 21:28:23,355 - INFO - ChatAgent initialized with prompt and llm.
+2025-04-27 21:28:23,355 - INFO - Displaying chat messages.
+2025-04-27 21:28:23,362 - INFO - PubMed Screener module loaded successfully.
+2025-04-27 21:29:41,381 - INFO - Initializing ChatPromptTemplate with system and human prompts.
+2025-04-27 21:29:41,397 - INFO - ChatPromptTemplate initialized successfully.
+2025-04-27 21:29:41,398 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 50, Completion Tokens: 150, Total Tokens: 200
+2025-04-27 21:29:41,405 - INFO - Response generated: Sample response to the question.
+2025-04-27 21:29:41,512 - INFO - Loading environment variables from .env file.
+2025-04-27 21:29:41,515 - INFO - Successfully loaded GEMINI_API_KEY from environment.
+2025-04-27 21:29:41,516 - INFO - Initializing ChatGoogleGenerativeAI model.
+2025-04-27 21:29:41,530 - INFO - ChatGoogleGenerativeAI model initialized successfully.
+2025-04-27 21:29:41,681 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:29:41,744 - INFO - No summary available. Prompting user to upload a report.
+2025-04-27 21:29:41,755 - INFO - Chatbot Assistant module loaded successfully.
+2025-04-27 21:30:25,945 - INFO - Initializing ChatPromptTemplate with system and human prompts.
+2025-04-27 21:30:25,947 - INFO - ChatPromptTemplate initialized successfully.
+2025-04-27 21:30:25,948 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 50, Completion Tokens: 150, Total Tokens: 200
+2025-04-27 21:30:25,951 - INFO - Response generated: Sample response to the question.
+2025-04-27 21:30:26,056 - INFO - Loading environment variables from .env file.
+2025-04-27 21:30:26,059 - INFO - Successfully loaded GEMINI_API_KEY from environment.
+2025-04-27 21:30:26,060 - INFO - Initializing ChatGoogleGenerativeAI model.
+2025-04-27 21:30:26,071 - INFO - ChatGoogleGenerativeAI model initialized successfully.
+2025-04-27 21:30:26,095 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:30:26,106 - INFO - No summary available. Prompting user to upload a report.
+2025-04-27 21:30:26,116 - INFO - Chatbot Assistant module loaded successfully.

@@ -51,7 +51,7 @@ sidebar_image = "assets/healthcare.jpeg"  # Update with the correct image path
 st.sidebar.image(sidebar_image, use_column_width=True)  # Replacing use_column_width with use_container_width
 
 # Sidebar navigation
-st.sidebar.title("🩺 Navigation")
+st.sidebar.title("👩‍⚕️ Medical Guide")
 st.sidebar.markdown("""
     Small AI companion for your healthcare diagnosis journey.
 """)

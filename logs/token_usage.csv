@@ -1,0 +1,13 @@
+timestamp,model,prompt_tokens,completion_tokens,total_tokens
+2025-04-27 21:03:01,gemini-1.5-flash-latest,50,150,200
+2025-04-27 21:06:56,gemini-1.5-flash-latest,50,150,200
+2025-04-27 21:09:05,gemini-1.5-flash-latest,50,150,200
+2025-04-27 21:10:56,gemini-1.5-flash-latest,50,150,200
+2025-04-27 21:11:11,pdf-extraction,2538,0,2538
+2025-04-27 21:11:11,text-extraction,2538,0,2538
+2025-04-27 21:11:11,models/embedding-001,3115,0,3115
+2025-04-27 21:11:19,embedding-storage,2538,0,2538
+2025-04-27 21:11:47,gemini-1.5-flash-latest,22,0,22
+2025-04-27 21:11:53,gemini-1.5-flash-latest,22,533,555
+2025-04-27 21:12:01,gemini-1.5-flash-latest,4,0,4
+2025-04-27 21:12:08,gemini-1.5-flash-latest,4,617,621

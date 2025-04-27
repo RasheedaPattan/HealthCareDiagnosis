@@ -1,0 +1,148 @@
+2025-04-27 21:06:56,108 - INFO - Initializing ChatPromptTemplate with system and human prompts.
+2025-04-27 21:06:56,113 - INFO - ChatPromptTemplate initialized successfully.
+2025-04-27 21:06:56,114 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 50, Completion Tokens: 150, Total Tokens: 200
+2025-04-27 21:06:56,117 - INFO - Response generated: Sample response to the question.
+2025-04-27 21:06:56,153 - INFO - Loading environment variables from .env file.
+2025-04-27 21:06:56,155 - INFO - Successfully loaded GEMINI_API_KEY from environment.
+2025-04-27 21:06:56,155 - INFO - Initializing ChatGoogleGenerativeAI model.
+2025-04-27 21:06:56,172 - INFO - ChatGoogleGenerativeAI model initialized successfully.
+2025-04-27 21:09:05,801 - INFO - Initializing ChatPromptTemplate with system and human prompts.
+2025-04-27 21:09:05,804 - INFO - ChatPromptTemplate initialized successfully.
+2025-04-27 21:09:05,806 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 50, Completion Tokens: 150, Total Tokens: 200
+2025-04-27 21:09:05,811 - INFO - Response generated: Sample response to the question.
+2025-04-27 21:09:05,853 - INFO - Loading environment variables from .env file.
+2025-04-27 21:09:05,857 - INFO - Successfully loaded GEMINI_API_KEY from environment.
+2025-04-27 21:09:05,858 - INFO - Initializing ChatGoogleGenerativeAI model.
+2025-04-27 21:09:05,918 - INFO - ChatGoogleGenerativeAI model initialized successfully.
+2025-04-27 21:10:56,477 - INFO - Initializing ChatPromptTemplate with system and human prompts.
+2025-04-27 21:10:56,481 - INFO - ChatPromptTemplate initialized successfully.
+2025-04-27 21:10:56,482 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 50, Completion Tokens: 150, Total Tokens: 200
+2025-04-27 21:10:56,487 - INFO - Response generated: Sample response to the question.
+2025-04-27 21:10:56,515 - INFO - Loading environment variables from .env file.
+2025-04-27 21:10:56,517 - INFO - Successfully loaded GEMINI_API_KEY from environment.
+2025-04-27 21:10:56,520 - INFO - Initializing ChatGoogleGenerativeAI model.
+2025-04-27 21:10:56,531 - INFO - ChatGoogleGenerativeAI model initialized successfully.
+2025-04-27 21:10:56,699 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:10:56,714 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:10:56,728 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:10:56,738 - INFO - No summary available. Prompting user to upload a report.
+2025-04-27 21:10:56,745 - INFO - No summary available. Prompting user to upload a report.
+2025-04-27 21:10:56,748 - INFO - Chatbot Assistant module loaded successfully.
+2025-04-27 21:10:56,749 - INFO - No summary available. Prompting user to upload a report.
+2025-04-27 21:10:56,751 - INFO - Chatbot Assistant module loaded successfully.
+2025-04-27 21:10:56,949 - INFO - Chatbot Assistant module loaded successfully.
+2025-04-27 21:11:11,093 - INFO - Loading Chatbot Assistant module...
+2025-04-27 21:11:11,113 - INFO - User uploaded a file: Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:11:11,129 - INFO - Processing file: Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:11:11,137 - INFO - Starting to process and store the report from file: temp\Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:11:11,141 - INFO - Starting text extraction from file: temp\Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:11:11,163 - INFO - Starting to extract text from PDF: temp\Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:11:11,634 - INFO - Successfully extracted text from PDF: temp\Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:11:11,639 - INFO - Model: pdf-extraction, Prompt Tokens: 2538, Completion Tokens: 0, Total Tokens: 2538
+2025-04-27 21:11:11,644 - INFO - Successfully extracted text from file: temp\Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:11:11,648 - INFO - Model: text-extraction, Prompt Tokens: 2538, Completion Tokens: 0, Total Tokens: 2538
+2025-04-27 21:11:11,658 - INFO - Starting to store embeddings for source: uploaded_report
+2025-04-27 21:11:11,662 - INFO - Splitting the text into chunks.
+2025-04-27 21:11:11,672 - INFO - Text split into 22 chunks.
+2025-04-27 21:11:11,673 - INFO - Initializing embeddings.
+2025-04-27 21:11:11,687 - INFO - Model: models/embedding-001, Prompt Tokens: 3115, Completion Tokens: 0, Total Tokens: 3115
+2025-04-27 21:11:11,694 - INFO - Saving embeddings to ChromaDB at data/chroma_db/default.
+2025-04-27 21:11:19,459 - INFO - Successfully stored 22 chunks to ChromaDB.
+2025-04-27 21:11:19,459 - INFO - Successfully stored embeddings for the file: temp\Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:11:19,459 - INFO - Model: embedding-storage, Prompt Tokens: 2538, Completion Tokens: 0, Total Tokens: 2538
+2025-04-27 21:11:19,474 - INFO - Starting to extract important details from the provided report.
+2025-04-27 21:11:19,480 - INFO - Processing report text of length 16966 characters.
+2025-04-27 21:11:25,453 - INFO - Token usage - Prompt Tokens: 4635, Completion Tokens: 506, Total Tokens: 5141
+2025-04-27 21:11:25,453 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 4635, Completion Tokens: 506, Total Tokens: 5141
+2025-04-27 21:11:25,456 - INFO - File processed and summary created for: Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:11:25,457 - INFO - Summary downloaded for file: Sample-Adult-History-And-Physical-By-M2-Student.pdf
+2025-04-27 21:11:25,472 - INFO - Chatbot Assistant module loaded successfully.
+2025-04-27 21:11:29,536 - INFO - Loading Differential Diagnosis module...
+2025-04-27 21:11:29,536 - INFO - New uploaded report detected. Clearing old diagnosis...
+2025-04-27 21:11:29,536 - INFO - Generating new diagnostic summary...
+2025-04-27 21:11:35,798 - INFO - Differential Diagnosis module loaded successfully.
+2025-04-27 21:11:38,700 - INFO - Loading PubMed Screener module...
+2025-04-27 21:11:38,721 - INFO - Setting up the chain for the ChatAgent.
+2025-04-27 21:11:38,721 - INFO - Chain setup complete.
+2025-04-27 21:11:38,735 - INFO - ChatAgent initialized with prompt and llm.
+2025-04-27 21:11:38,735 - INFO - Displaying chat messages.
+2025-04-27 21:11:38,748 - INFO - PubMed Screener module loaded successfully.
+2025-04-27 21:11:47,159 - INFO - Loading PubMed Screener module...
+2025-04-27 21:11:47,179 - INFO - Setting up the chain for the ChatAgent.
+2025-04-27 21:11:47,182 - INFO - Chain setup complete.
+2025-04-27 21:11:47,203 - INFO - ChatAgent initialized with prompt and llm.
+2025-04-27 21:11:47,203 - INFO - Displaying chat messages.
+2025-04-27 21:11:47,203 - INFO - User input received: What are the molecular mechanisms underlying the development of resistance to targeted cancer therapies, and how can these resistance mechanisms be overcome?
+2025-04-27 21:11:47,214 - INFO - Invoking PubMed search...
+2025-04-27 21:11:47,220 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 22, Completion Tokens: 0, Total Tokens: 22
+2025-04-27 21:11:52,953 - INFO - Loading Differential Diagnosis module...
+2025-04-27 21:11:52,976 - INFO - Differential Diagnosis module loaded successfully.
+2025-04-27 21:11:53,350 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 22, Completion Tokens: 533, Total Tokens: 555
+2025-04-27 21:11:59,275 - INFO - Loading PubMed Screener module...
+2025-04-27 21:11:59,300 - INFO - Setting up the chain for the ChatAgent.
+2025-04-27 21:11:59,310 - INFO - Chain setup complete.
+2025-04-27 21:11:59,325 - INFO - ChatAgent initialized with prompt and llm.
+2025-04-27 21:11:59,326 - INFO - Displaying chat messages.
+2025-04-27 21:11:59,345 - INFO - PubMed Screener module loaded successfully.
+2025-04-27 21:12:01,681 - INFO - Loading PubMed Screener module...
+2025-04-27 21:12:01,693 - INFO - Setting up the chain for the ChatAgent.
+2025-04-27 21:12:01,693 - INFO - Chain setup complete.
+2025-04-27 21:12:01,698 - INFO - ChatAgent initialized with prompt and llm.
+2025-04-27 21:12:01,699 - INFO - Displaying chat messages.
+2025-04-27 21:12:01,707 - INFO - User input received: Systemic Lupus Erythematosus (SLE)
+2025-04-27 21:12:01,712 - INFO - Invoking PubMed search...
+2025-04-27 21:12:01,713 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 4, Completion Tokens: 0, Total Tokens: 4
+2025-04-27 21:12:08,788 - INFO - Model: gemini-1.5-flash-latest, Prompt Tokens: 4, Completion Tokens: 617, Total Tokens: 621
+2025-04-27 21:12:08,806 - INFO - Search response: Systemic Lupus Erythematosus (SLE), or simply lupus, is a chronic autoimmune disease.  This means the body's immune system mistakenly attacks its own tissues and organs.  Unlike many other autoimmune diseases that target specific organs, lupus can affect many different parts of the body, leading to a wide range of symptoms.
+
+Here's a breakdown of key aspects of SLE:
+
+**Causes:**  The exact cause of SLE is unknown, but it's believed to be a complex interplay of genetic predisposition and environmental triggers.
+
+* **Genetics:**  Individuals with a family history of lupus have a higher risk of developing the disease.  Specific genes associated with immune regulation have been linked to SLE susceptibility.
+* **Environmental factors:**  Several environmental factors are suspected to play a role, including:
+    * **Ultraviolet (UV) light:**  Sunlight exposure can trigger lupus flares in many patients.
+    * **Infections:**  Certain viral or bacterial infections may trigger or exacerbate the disease.
+    * **Hormones:**  Women are far more likely to develop lupus than men, suggesting a role for sex hormones.
+    * **Certain medications:**  Some medications can induce lupus-like symptoms.
+
+**Pathophysiology:**  The core problem in SLE is a breakdown in immune tolerance.  This leads to the production of autoantibodies – antibodies that mistakenly target the body's own cells and tissues.  These autoantibodies can form immune complexes that deposit in various organs, causing inflammation and damage.  Key features include:
+
+* **Autoantibody production:**  SLE patients produce autoantibodies against a wide range of nuclear antigens (like DNA, RNA, histones), cytoplasmic antigens, and cell surface antigens.  The presence of certain autoantibodies (like anti-dsDNA and anti-Sm) is diagnostic.
+* **Immune complex deposition:**  These autoantibody-antigen complexes deposit in tissues, triggering inflammation and complement activation.
+* **Inflammation:**  The inflammation caused by immune complex deposition leads to tissue damage in various organs.
+* **Immune cell dysregulation:**  Both B cells (producing autoantibodies) and T cells (regulating the immune response) are dysregulated in SLE.
+
+**Symptoms:**  SLE symptoms are highly variable and can range from mild to severe.  Common symptoms include:
+
+* **Fatigue:**  Often a prominent and persistent symptom.
+* **Joint pain and swelling (arthritis):**  A common manifestation, often affecting multiple joints.
+* **Skin rashes:**  The characteristic "butterfly rash" across the face is a hallmark, but other rashes can occur.
+* **Fever:**  Often unexplained and can indicate disease activity.
+* **Kidney problems (lupus nephritis):**  A serious complication that can lead to kidney failure.
+* **Lung problems (pleuritis, pneumonitis):**  Inflammation of the lungs or lining of the lungs.
+* **Heart problems (pericarditis, myocarditis):**  Inflammation of the heart lining or heart muscle.
+* **Neurological problems (seizures, psychosis):**  Can occur in some patients.
+* **Blood disorders (anemia, thrombocytopenia, leukopenia):**  Low levels of red blood cells, platelets, or white blood cells.
+
+
+**Diagnosis:**  Diagnosing SLE can be challenging because symptoms are varied and can mimic other conditions.  Diagnosis typically involves:
+
+* **Physical examination:**  To assess symptoms and signs of organ involvement.
+* **Blood tests:**  To detect autoantibodies and assess inflammation.
+* **Urine tests:**  To check for kidney involvement.
+* **Imaging tests:**  Such as X-rays, ultrasound, or CT scans, to evaluate organ damage.
+* **Biopsy:**  A tissue sample may be taken to confirm organ involvement.
+
+
+**Treatment:**  There's no cure for SLE, but treatment focuses on managing symptoms, preventing organ damage, and improving quality of life.  Treatment options include:
+
+* **Nonsteroidal anti-inflammatory drugs (NSAIDs):**  To relieve pain and inflammation.
+* **Corticosteroids:**  To suppress the immune system and reduce inflammation.
+* **Immunosuppressants:**  To further suppress the immune system in more severe cases.
+* **Antimalarials:**  Such as hydroxychloroquine, to reduce inflammation and skin rashes.
+* **Biologics:**  Newer targeted therapies that specifically modulate aspects of the immune system.
+
+
+Managing SLE requires a multidisciplinary approach involving rheumatologists, nephrologists, cardiologists, dermatologists, and other specialists as needed.  Regular monitoring is crucial to detect and manage complications.
+2025-04-27 21:12:08,984 - INFO - PubMed Screener module loaded successfully.

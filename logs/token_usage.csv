@@ -29,3 +29,14 @@ timestamp,model,prompt_tokens,completion_tokens,total_tokens
 2025-04-27 21:28:07,embedding-storage,146,0,146
 2025-04-27 21:29:41,gemini-1.5-flash-latest,50,150,200
 2025-04-27 21:30:25,gemini-1.5-flash-latest,50,150,200
+2025-04-27 21:50:36,gemini-1.5-flash-latest,50,150,200
+2025-04-27 21:50:45,pdf-extraction,2538,0,2538
+2025-04-27 21:50:45,text-extraction,2538,0,2538
+2025-04-27 21:50:45,models/embedding-001,3115,0,3115
+2025-04-27 21:50:53,embedding-storage,2538,0,2538
+2025-04-27 21:51:24,gemini-1.5-flash-latest,22,0,22
+2025-04-27 21:51:30,gemini-1.5-flash-latest,22,569,591
+2025-04-27 21:51:44,image-extraction,146,0,146
+2025-04-27 21:51:44,text-extraction,146,0,146
+2025-04-27 21:51:44,models/embedding-001,146,0,146
+2025-04-27 21:51:47,embedding-storage,146,0,146

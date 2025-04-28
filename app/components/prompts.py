@@ -4,7 +4,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")
 import logging
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
-# Use the logger from logger.py (assuming it's already set up in your project)
+# Use the logger from logger.py 
 from utils.logger import logger, log_token_usage  # Import log_token_usage to log token data
 
 # Log the start of the setup process
@@ -31,8 +31,8 @@ def generate_response_and_log_tokens(question: str):
         # Assuming you have an LLM (like a generative model) to generate the response
         # This can be done with ChatPromptTemplate or directly with a language model
 
-        # Sample response (replace this with actual invocation with your LLM)
-        response = "Sample response to the question."  # Replace this with real model output
+        # Sample response 
+        response = "Sample response to the question." 
 
         # Simulate token usage (you can get this from the model's response)
         prompt_tokens = 50  # Replace this with the actual token count from your model
@@ -41,7 +41,7 @@ def generate_response_and_log_tokens(question: str):
 
         # Log token usage
         log_token_usage(
-            model="gemini-1.5-flash-latest",  # Model name (replace with the actual model)
+            model="gemini-1.5-flash-latest",  # Model name 
             prompt_tokens=prompt_tokens,
             completion_tokens=completion_tokens,
             total_tokens=total_tokens

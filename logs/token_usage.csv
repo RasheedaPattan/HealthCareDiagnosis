@@ -40,3 +40,7 @@ timestamp,model,prompt_tokens,completion_tokens,total_tokens
 2025-04-27 21:51:44,text-extraction,146,0,146
 2025-04-27 21:51:44,models/embedding-001,146,0,146
 2025-04-27 21:51:47,embedding-storage,146,0,146
+2025-04-28 16:31:04,gemini-1.5-flash-latest,50,150,200
+2025-04-28 16:33:59,gemini-1.5-flash-latest,50,150,200
+2025-04-28 16:37:51,gemini-1.5-flash-latest,22,0,22
+2025-04-28 16:37:59,gemini-1.5-flash-latest,22,519,541

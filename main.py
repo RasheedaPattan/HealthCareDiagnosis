@@ -47,8 +47,8 @@ def init_session_state():
 init_session_state()
 
 # Sidebar Image
-sidebar_image = "assets/healthcare.jpeg"  # Update with the correct image path
-st.sidebar.image(sidebar_image, use_column_width=True)  # Replacing use_column_width with use_container_width
+sidebar_image = "assets/healthcare.jpeg"  
+st.sidebar.image(sidebar_image, use_container_width=True)  # Replacing use_column_width with use_container_width
 
 # Sidebar navigation
 st.sidebar.title("👩‍⚕️ Medical Guide")
